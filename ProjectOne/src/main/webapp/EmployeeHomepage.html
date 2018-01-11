@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Homepage</title>
+</head>
+<body>
+	<h1>Employee Homepage</h1>
+	</div>
+	<form method="GET" action="accountInfo">
+		<div >
+		<span id="id">Id: </span>
+			<br />
+			 <span id="username">Username: </span>			 	 
+			<br />
+			
+			<span id="firstname">Name:</span> <span id="lastname"> </span>			
+			<br />
+			<span id="email">Email : </span>
+		</div>
+	</form>
+	
+	<p>Update my information</p>
+	<form method="POST" action="Update"> <!-- Find out where this goes, and what it's doing!!! -->
+				Username:  <input type="text" name="e_username"> <br />
+				Password: <input type="text" name="e_password"> <br />
+				First Name: <input type="text" name="firstName"> <br /> 
+				Last Name: <input type="text" name="lastName"> <br />
+				Email: <input type="text" name="email"> <br />
+				<input id="updateBtn" type="submit" value="Update" />
+			</form>
+			<br />
+		
+	<button id="LogoutBtn" type="buton">Logout</button>
+		
+	<!-- <div id="view"> </div>  -->
+
+	<script src="Homepage.js" type="text/javascript"></script>
+</body>
+</html>

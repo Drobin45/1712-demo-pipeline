@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+
+.bordered {
+	border-radius: 25px;
+	background-color: #bfd2ef;; width : 200px;
+	height: 100px;
+	padding: 25px;
+	border: 10px inset black;
+	position: absolute;
+	top: 35%;
+	left: 40%;
+	width: 200px;
+}
+
+.bordered2 {
+	border-radius: 25px;
+	background-color: #8cdba5; width : 200px;
+	height: 100px;
+	padding: 25px;
+	border: 10px inset black;
+	position: absolute;
+	top: 35%;
+	left: 40%;
+	width: 200px;
+}
+
+.borederedChild {
+	position: absolute;
+	top: -7%;
+	left: 20%;	
+	margin: 0px;
+}
+
+.button1 {
+	background-color: #1d56ad;
+	border-radius: 12px;
+	border: 2px solid black;
+	position: relative; left: 40px;
+}
+
+.button2 {
+	background-color: #03a335;
+	border-radius: 12px;
+	border: 2px solid black;
+	position: relative; left: 40px;
+}
+
+
+
+
+
+
